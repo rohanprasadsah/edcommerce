@@ -1,55 +1,7 @@
-const Blogs = () => {
-  const blogPosts = [
-    {
-      id: 1,
-      title: "How to Prepare for NEET 2024: Complete Strategy Guide",
-      excerpt: "Discover the most effective strategies and time management tips to crack NEET with top ranks.",
-      date: "January 15, 2024",
-      category: "NEET",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop"
-    },
-    {
-      id: 2,
-      title: "JEE Main vs JEE Advanced: Key Differences Explained",
-      excerpt: "Understanding the distinctions between JEE Main and Advanced to plan your preparation better.",
-      date: "January 12, 2024",
-      category: "JEE",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=250&fit=crop"
-    },
-    {
-      id: 3,
-      title: "Top 10 Study Habits of Successful Medical Students",
-      excerpt: "Learn from toppers about effective study techniques that lead to success in medical entrance exams.",
-      date: "January 10, 2024",
-      category: "Study Tips",
-      image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=250&fit=crop"
-    },
-    {
-      id: 4,
-      title: "Importance of Mock Tests in Competitive Exam Preparation",
-      excerpt: "Why regular mock tests are crucial for scoring high in NEET and JEE examinations.",
-      date: "January 8, 2024",
-      category: "Preparation",
-      image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=400&h=250&fit=crop"
-    },
-    {
-      id: 5,
-      title: "How to Stay Motivated During Long Preparation Periods",
-      excerpt: "Practical tips to maintain focus and motivation throughout your competitive exam journey.",
-      date: "January 5, 2024",
-      category: "Motivation",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop"
-    },
-    {
-      id: 6,
-      title: "Best Books for NEET Chemistry Preparation",
-      excerpt: "Comprehensive list of recommended books and resources for mastering NEET Chemistry.",
-      date: "January 3, 2024",
-      category: "Resources",
-      image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=250&fit=crop"
-    }
-  ];
+import { Link } from 'react-router-dom';
+import { blogPosts } from '../data/blogData';
 
+const Blogs = () => {
   return (
     <div>
       {/* Page Heading */}
@@ -62,7 +14,11 @@ const Blogs = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {blogPosts.map((post) => (
-              <div key={post.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <Link 
+                key={post.id}
+                to={`/blog/${post.id}`}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:scale-[1.02] block"
+              >
                 <img 
                   src={post.image} 
                   alt={post.title}
@@ -75,17 +31,17 @@ const Blogs = () => {
                     </span>
                     <span className="text-gray-500 text-sm">{post.date}</span>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2 hover:text-blue-600 transition-colors cursor-pointer">
+                  <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                     {post.excerpt}
                   </p>
-                  <button className="text-blue-600 font-semibold hover:text-blue-700 transition-colors">
+                  <span className="text-blue-600 font-semibold hover:text-blue-700 transition-colors inline-flex items-center gap-1">
                     Read More →
-                  </button>
+                  </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
