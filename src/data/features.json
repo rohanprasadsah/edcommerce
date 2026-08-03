@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "award",
+    "title": "Certified Courses",
+    "description": "Get industry-recognized certificates upon course completion"
+  },
+  {
+    "icon": "users",
+    "title": "Expert Instructors",
+    "description": "Learn from experienced professionals with 10+ years in industry"
+  },
+  {
+    "icon": "video",
+    "title": "Live & Recorded Classes",
+    "description": "Flexible learning with live sessions and lifetime access to recordings"
+  },
+  {
+    "icon": "book-open",
+    "title": "Comprehensive Curriculum",
+    "description": "Updated course content aligned with current industry standards"
+  },
+  {
+    "icon": "headphones",
+    "title": "24/7 Support",
+    "description": "Get help whenever you need with our dedicated support team"
+  },
+  {
+    "icon": "trending-up",
+    "title": "Career Guidance",
+    "description": "Resume building, interview prep, and job placement assistance"
+  }
+]

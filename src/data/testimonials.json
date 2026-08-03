@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "role": "Software Developer",
+    "company": "Google",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+    "rating": 5,
+    "text": "The web development course changed my life! I went from zero coding knowledge to landing a job at Google. The instructors are amazing and the curriculum is top-notch."
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "role": "Data Scientist",
+    "company": "Microsoft",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+    "rating": 5,
+    "text": "Best investment I ever made! The Data Science course is comprehensive and practical. Within 6 months, I switched my career and doubled my salary."
+  },
+  {
+    "id": 3,
+    "name": "Emily Rodriguez",
+    "role": "Digital Marketing Manager",
+    "company": "Amazon",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+    "rating": 5,
+    "text": "The Digital Marketing Masterclass exceeded all my expectations. The real-world projects and hands-on approach helped me understand the concepts deeply."
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "role": "Mobile App Developer",
+    "company": "Uber",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+    "rating": 5,
+    "text": "Outstanding course quality and support! The mobile development program gave me the skills to build professional apps. Now I work for a top tech company!"
+  },
+  {
+    "id": 5,
+    "name": "Priya Sharma",
+    "role": "UX Designer",
+    "company": "Adobe",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
+    "rating": 5,
+    "text": "The design course is incredibly detailed and practical. The mentorship from industry experts helped me build an impressive portfolio and land my dream job."
+  }
+]

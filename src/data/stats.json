@@ -1,0 +1,26 @@
+[
+  {
+    "number": "10,000+",
+    "label": "Students Mentored",
+    "icon": "users",
+    "color": "from-blue-500 to-blue-600"
+  },
+  {
+    "number": "50+",
+    "label": "Expert Teachers",
+    "icon": "graduation-cap",
+    "color": "from-green-500 to-green-600"
+  },
+  {
+    "number": "100+",
+    "label": "Courses Available",
+    "icon": "book-open",
+    "color": "from-purple-500 to-purple-600"
+  },
+  {
+    "number": "95%",
+    "label": "Success Rate",
+    "icon": "award",
+    "color": "from-orange-500 to-orange-600"
+  }
+]

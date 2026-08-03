@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/xNJhEBI4yjTiFoBtgO9hIRL7FbjohZDjtLZ22ucd.webp",
+    "redirectUrl": "/courses",
+    "alt": "Banner 1"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/S2JPDa1zZ9ZSlx6tnW6gCbhdjOwxg82MDLsX5Sgg.jpg",
+    "redirectUrl": "/courses",
+    "alt": "Banner 2"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/FpG0mW2HH7rwCsmS4NgiJOCfqxKnya9saSpMFOJo.webp",
+    "redirectUrl": "/courses",
+    "alt": "Banner 3"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/5k6mho0HO0L2RBeqxj9HSj0XMoRlqyrGTF7YwnHZ.webp",
+    "redirectUrl": "/about",
+    "alt": "Banner 4"
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/ke3pXlgcJprrt3KdedBaRK5ZuLtj4GiNqdgf4OLE.webp",
+    "redirectUrl": "/contact",
+    "alt": "Banner 5"
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://prepmed.in/public/uploads/banners/Ke728bJzs21r2bQuZ9jowkN9HUnpQWlfa8GGfqIp.webp",
+    "redirectUrl": "/courses",
+    "alt": "Banner 6"
+  }
+]

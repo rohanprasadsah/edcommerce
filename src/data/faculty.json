@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. James Anderson",
+    "role": "Head of Computer Science",
+    "expertise": "Web Development, Software Engineering",
+    "experience": "15+ years",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop",
+    "education": "PhD in Computer Science - MIT",
+    "linkedin": "#"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Sarah Williams",
+    "role": "Data Science Lead",
+    "expertise": "Machine Learning, AI, Statistics",
+    "experience": "12+ years",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop",
+    "education": "PhD in Data Science - Stanford",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Mr. Michael Brown",
+    "role": "Digital Marketing Expert",
+    "expertise": "SEO, Social Media, Content Strategy",
+    "experience": "10+ years",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop",
+    "education": "MBA - Harvard Business School",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Ms. Emily Chen",
+    "role": "UX/UI Design Instructor",
+    "expertise": "Product Design, User Research",
+    "experience": "8+ years",
+    "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300&h=300&fit=crop",
+    "education": "Masters in Design - Parsons",
+    "linkedin": "#"
+  }
+]
