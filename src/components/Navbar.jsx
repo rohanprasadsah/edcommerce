@@ -62,7 +62,7 @@ const Navbar = () => {
               className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2.5 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all shadow-md"
             >
               <Phone size={18} />
-              <span className="font-semibold text-sm">Call</span>
+              <span className="font-semibold text-sm">Contact Us</span>
             </a>
 
             {/* Hamburger Menu Button */}
