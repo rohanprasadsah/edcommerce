@@ -14,8 +14,7 @@ const TopBar = () => {
           {/* Right: Email */}
           <a href="mailto:info@eduinstitute.com" className="flex items-center gap-1 md:gap-2 hover:text-blue-200 transition">
             <Mail size={14} className="md:w-4 md:h-4" />
-            <span className="hidden sm:inline">info@eduinstitute.com</span>
-            <span className="sm:hidden">Email</span>
+            <span>info@eduinstitute.com</span>
           </a>
         </div>
       </div>
