@@ -20,8 +20,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-14 md:h-16 px-1 md:px-4">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-1 md:gap-2 text-lg md:text-2xl font-bold text-blue-600">
-            <GraduationCap size={20} className="md:w-8 md:h-8" />
-            <span className="text-sm md:text-2xl">EduInstitute</span>
+            <GraduationCap size={24} className="md:w-8 md:h-8" />
+            <span className="text-base md:text-2xl">EduInstitute</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -47,10 +47,10 @@ const Navbar = () => {
             {/* Call Button */}
             <a 
               href="tel:+1234567890" 
-              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-2 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all shadow-md hover:shadow-lg"
+              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2.5 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all shadow-md hover:shadow-lg"
             >
-              <Phone size={16} />
-              <span className="font-semibold text-xs md:text-base">Call</span>
+              <Phone size={18} />
+              <span className="font-semibold text-sm md:text-base">Contact Us</span>
             </a>
           </div>
 
@@ -59,10 +59,10 @@ const Navbar = () => {
             {/* Call Button */}
             <a 
               href="tel:+1234567890" 
-              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-2 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all shadow-md"
+              className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2.5 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all shadow-md"
             >
-              <Phone size={16} />
-              <span className="font-semibold text-xs">Call</span>
+              <Phone size={18} />
+              <span className="font-semibold text-sm">Call</span>
             </a>
 
             {/* Hamburger Menu Button */}
